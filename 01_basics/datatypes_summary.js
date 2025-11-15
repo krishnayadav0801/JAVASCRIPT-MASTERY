@@ -22,11 +22,11 @@ console.log(typeof bigNumber);
 
 const heros = ["shaktiman", "naagraj", "krish"] // Array
 
-const user = {  // objects
-    name: "krishna",
-    age: "19",
-    role: "Timepass"
-}
+// const user = {  // objects
+//     name: "krishna",
+//     age: "19",
+//     role: "Timepass"
+// }
 
 const myFunction = function () {   // function
     console.log("Hello Krishna");
@@ -37,5 +37,28 @@ myFunction()
 
 console.log(typeof myFunction); // function
 console.log(typeof heros); // object
-console.log(typeof user); // object
+// console.log(typeof user); // object
+
+//-----------------------------------------------------------------------
+
+
+// stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "krishna || Youtube"
+let newYoutubeName = myYoutubeName
+newYoutubeName = "krishna's yt"
+console.log(newYoutubeName);
+console.log(myYoutubeName);
+
+let user = {
+   email: "krishnaYadav03@gmail.com",
+   upiId: "user@ybl",
+}
+let newUser = user
+console.log(newUser);
+newUser.email = "Test@test.com"
+console.log(user);
+
+
+
 
